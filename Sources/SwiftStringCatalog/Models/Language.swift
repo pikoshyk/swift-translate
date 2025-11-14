@@ -34,11 +34,12 @@ public extension Language {
 
     static var allCommon: [Language] {
         return [
-            .arabic,
+//            .arabic,
+            .belarusan,
             .catalan,
             .chineseHongKong,
-            .chineseSimplified,
-            .chineseTraditional,
+//            .chineseSimplified,
+//            .chineseTraditional,
             .croatian,
             .czech,
             .danish,
@@ -48,7 +49,7 @@ public extension Language {
             .french,
             .german,
             .greek,
-            .hebrew,
+//            .hebrew,
             .hindi,
             .hungarian,
             .indonesian,
@@ -66,15 +67,18 @@ public extension Language {
             .spanish,
             .swedish,
             .thai,
-            .turkish
+            .turkish,
+            .ukrainian,
+            .vietnamese
         ]
     }
     
-    static let arabic = Self("ar")
+//    static let arabic = Self("ar")
+    static let belarusan = Self("be")
     static let catalan = Self("ca")
     static let chineseHongKong = Self("zh-HK")
-    static let chineseSimplified = Self("zh-Hans")
-    static let chineseTraditional = Self("zh-Hant")
+//    static let chineseSimplified = Self("zh-Hans")
+//    static let chineseTraditional = Self("zh-Hant")
     static let croatian = Self("hr")
     static let czech = Self("cs")
     static let danish = Self("da")
@@ -84,7 +88,7 @@ public extension Language {
     static let french = Self("fr")
     static let german = Self("de")
     static let greek = Self("el")
-    static let hebrew = Self("he")
+//    static let hebrew = Self("he")
     static let hindi = Self("hi")
     static let hungarian = Self("hu")
     static let indonesian = Self("id")

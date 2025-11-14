@@ -38,7 +38,7 @@ public final class LocalizableString {
     
     public func setTranslation(_ translation: String) {
         translatedValue = translation
-        state = .translated
+        state = .needsReview
     }
     
     // MARK: Utility
